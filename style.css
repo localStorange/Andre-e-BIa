@@ -123,6 +123,7 @@ body {
     align-items: center;
     gap: 32px;
     font-family: 'Dancing Script', cursive;
+    font-size: 32px;
 }
 
 .apresentacao__links__link {
@@ -131,7 +132,25 @@ body {
     width: 250px;
     text-align: center;
     border-radius: 8px;
-    font-size: 30px;
+    font-size: 32px;
+    padding: 12.5px 0;
+    text-decoration: double;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.apresentacao__links__link__texto {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+}
+
+.apresentacao__links__link2{
+    background-color: black;
+    border: 10px solid black;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 32px;
     padding: 12.5px 0;
     text-decoration: double;
     color: white;
