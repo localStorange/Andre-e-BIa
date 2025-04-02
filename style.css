@@ -78,17 +78,15 @@ body {
     }
 
     .apresentacao__conteudo__titulo__texto {
-        font-family: 'Montserrat Alternates', sans-serif; /* Fonte mais legível */
-        font-size: 45px;
-        line-height: 1.6; /* Espaçamento entre linhas */
-        text-align: justify; /* Texto alinhado */
-        padding: 0 10px; /* Padding lateral */
-        word-wrap: break-word; /* Quebra palavras longas */
-        overflow-wrap: break-word; /* Garante quebra em qualquer palavra */
-        hyphens: auto; /* Hifenização automática (opcional) */
-        max-width: 100%; /* Garante que o texto não ultrapasse o container */
-        margin: 0 auto; /* Centraliza o texto */
+        font-family: 'Dancing Script', cursive;
+        font-size: 43px;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 10px;
+        line-height: 1.4;
+        margin-bottom: 30px;
     }
+
     .apresentacao__links {
         display: flex;
         flex-direction: column;
